@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>wwt</groupId>
-    <artifactId>netty.learn</artifactId>
+    <artifactId>nettylearn</artifactId>
     <version>1.0-SNAPSHOT</version>
 
 
