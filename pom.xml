@@ -15,8 +15,29 @@
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-all</artifactId>
-            <version>5.0.0.Alpha1</version>
+            <version>4.1.32.Final</version>
         </dependency>
+
     </dependencies>
+
+    <repositories>
+        <repository>
+            <!-- 同程maven仓库 -->
+            <id>lyRepository</id>
+            <name>lyRepository</name>
+            <url>http://nexus.17usoft.com/repository/mvn-all/</url>
+            <layout>default</layout>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>nexus_public</id>
+            <url>http://10.100.157.240:8081/nexus/content/groups/public/</url>
+        </repository>
+    </repositories>
 
 </project>
